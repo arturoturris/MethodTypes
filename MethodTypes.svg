@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="124px" preserveAspectRatio="none" style="width:131px;height:124px;" version="1.1" viewBox="0 0 131 124" width="131px" zoomAndPan="magnify"><defs><filter height="300%" id="fxcfqvtlilypq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6dd1effef6e9d74f0466e807640316e1]
+class MethodTypes--><rect codeLine="2" fill="#FEFECE" filter="url(#fxcfqvtlilypq)" height="103.3438" id="MethodTypes" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="7" y="7"/><ellipse cx="24.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M27.0156,18.875 Q27.1719,18.6563 27.3594,18.5469 Q27.5469,18.4375 27.7656,18.4375 Q28.1406,18.4375 28.375,18.7031 Q28.6094,18.9531 28.6094,19.5625 L28.6094,21.0156 Q28.6094,21.625 28.375,21.8906 Q28.1406,22.1563 27.7656,22.1563 Q27.4219,22.1563 27.2188,21.9531 Q27.0156,21.7656 26.9063,21.25 Q26.8594,20.8906 26.6719,20.7031 Q26.3438,20.3281 25.7344,20.1094 Q25.125,19.8906 24.5,19.8906 Q23.7344,19.8906 23.0938,20.2188 Q22.4688,20.5469 21.9688,21.2969 Q21.4844,22.0469 21.4844,23.0781 L21.4844,24.1719 Q21.4844,25.4063 22.375,26.2344 Q23.2656,27.0469 24.8594,27.0469 Q25.7969,27.0469 26.4531,26.7969 Q26.8438,26.6406 27.2656,26.2031 Q27.5313,25.9375 27.6719,25.8594 Q27.8281,25.7813 28.0313,25.7813 Q28.3594,25.7813 28.6094,26.0469 Q28.875,26.2969 28.875,26.6406 Q28.875,26.9844 28.5313,27.3906 Q28.0313,27.9688 27.2344,28.2969 Q26.1563,28.75 24.8594,28.75 Q23.3438,28.75 22.1406,28.125 Q21.1563,27.625 20.4688,26.5625 Q19.7813,25.4844 19.7813,24.2031 L19.7813,23.0469 Q19.7813,21.7188 20.3906,20.5781 Q21.0156,19.4219 22.1094,18.8125 Q23.2031,18.1875 24.4375,18.1875 Q25.1719,18.1875 25.8125,18.3594 Q26.4688,18.5156 27.0156,18.875 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="73" x="38.75" y="27.9102">MethodTypes</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="116" y1="39" y2="39"/><ellipse cx="18" cy="50" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="26" x="27" y="54.4189">name</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="116" y1="60.8359" y2="60.8359"/><ellipse cx="18" cy="71.8359" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="27" y="76.2549">instanceMethod()</text><ellipse cx="18" cy="85.6719" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="69" x="27" y="90.0908">classMethod()</text><ellipse cx="18" cy="99.5078" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="69" x="27" y="103.9268">staticMethod()</text><!--MD5=[2f7fa05986a20a0114f7a8c603a8b45e]
+@startuml
+
+class MethodTypes {
++{static} name
++instanceMethod()
++{static}classMethod()
++{static}staticMethod()
+}
+
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 14:40:44 CDT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: MX
+--></g></svg>
